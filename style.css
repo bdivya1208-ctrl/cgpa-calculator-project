@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    min-height: 100vh;
+
+    background:
+        radial-gradient(circle at top left,
+            #4f1c89 0%,
+            #0b1020 35%),
+        radial-gradient(circle at bottom right,
+            #0ea5e9 0%,
+            #050816 40%);
+
+    background-color: #050816;
+    color: white;
+
+    padding: 40px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+
+    background: rgba(12, 18, 38, 0.85);
+
+    border: 1px solid rgba(255,255,255,0.1);
+
+    border-radius: 20px;
+
+    padding: 35px;
+
+    backdrop-filter: blur(10px);
+
+    box-shadow:
+        0 0 25px rgba(138,43,226,0.3),
+        0 0 60px rgba(0,191,255,0.15);
+}
+
+h1 {
+    text-align: center;
+
+    font-size: 4rem;
+
+    margin-bottom: 30px;
+
+    background: linear-gradient(
+        90deg,
+        #a855f7,
+        #06b6d4
+    );
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+button {
+    background: linear-gradient(
+        90deg,
+        #7c3aed,
+        #4f46e5
+    );
+
+    color: white;
+
+    border: none;
+
+    padding: 14px 24px;
+
+    border-radius: 10px;
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+
+    margin-bottom: 20px;
+}
+
+button:hover {
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 0 15px #7c3aed,
+        0 0 30px #4f46e5;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+
+    border-collapse: collapse;
+
+    background: rgba(255,255,255,0.03);
+
+    border-radius: 15px;
+
+    overflow: hidden;
+}
+
+th {
+    background: rgba(124,58,237,0.2);
+
+    color: #c084fc;
+
+    font-size: 18px;
+
+    padding: 18px;
+}
+
+td {
+    border-top: 1px solid rgba(255,255,255,0.08);
+
+    padding: 15px;
+
+    text-align: center;
+}
+
+input,
+select {
+    width: 85%;
+
+    padding: 12px;
+
+    border-radius: 8px;
+
+    border: 1px solid #374151;
+
+    background: #111827;
+
+    color: white;
+
+    font-size: 15px;
+}
+
+input:focus,
+select:focus {
+    outline: none;
+
+    border-color: #8b5cf6;
+
+    box-shadow: 0 0 10px rgba(139,92,246,0.5);
+}
+
+#result {
+    margin-top: 35px;
+
+    text-align: center;
+
+    font-size: 3rem;
+
+    font-weight: bold;
+
+    color: #22c55e;
+
+    padding: 25px;
+
+    border-radius: 15px;
+
+    background: rgba(34,197,94,0.08);
+
+    border: 1px solid rgba(34,197,94,0.3);
+
+    box-shadow:
+        0 0 15px rgba(34,197,94,0.2);
+}
